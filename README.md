@@ -11,7 +11,7 @@ test_set:30%
 
 The logistic model had an initial accuracy of 81%. 
 It was improved to an accuracy of 83% after finding an optiminal default probability.
-The accuracy of the model was imporved to once more to 86% with principal component analysis.
+The accuracy of the model was imporved to once more to 86% leveraging principal component analysis and hyperparamter turning.
 There were 14 components from the encoded dataset, cr_clean2.
 
 The data was also summarized with pivot tables.
