@@ -16,10 +16,13 @@ The multi-agent model improved the recall, actual defaulters, by 31% while havin
 ![Model Performance](https://github.com/10ken/Credit-Risk-Modeling/blob/master/img/all_performance_KPIs.png)
 
 ## Summary of Findings
-                    Recall    Precision    Accuracy    
-**Log Model:**            53          73          93      
-**XGB Model:**            72          94          93
-**Multi-Agent Model:**    84          70          90
+Model Name:          Recall    Precision    Accuracy   
+                    
+**Log Model:**          53          73          93   
+
+**XGB Model:**          72          94          93
+
+**Multi-Agent Model:**          84          70          90
 
 - **Data Cleaning and Exploration**: Essential for understanding the dataset and preparing it for modeling.
 -Certainly! Here are the improved versions of each statement:
