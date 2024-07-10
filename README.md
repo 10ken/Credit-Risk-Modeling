@@ -20,9 +20,9 @@ The multi-agent model improved the recall, actual defaulters, by 31% while havin
                     
 **Log Model:**      |    53       |   73      |    93   
 
-**XGB Model:**          72          94          93
+**XGB Model:**     |     72    |      94     |     93
 
-**Multi-Agent Model:**          84          70          90
+**Multi-Agent Model:**     |     84     |     70    |      90
 
 - **Data Cleaning and Exploration**: Essential for understanding the dataset and preparing it for modeling.
 -Certainly! Here are the improved versions of each statement:
