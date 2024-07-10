@@ -5,6 +5,7 @@ Based on the dataset, despite the current application measures taken, 18.4% of c
 The credit risk modeling project aimed to predict loan defaults with high accuracy and reliability by prioritizing the improvement of recall without significantly compromising precision and accuracy, thereby minimizing risk for both lenders and applicants.
 
 The project involved multiple stages:
+
   **1.** Data Cleaning
   
   **2.** Exploration
