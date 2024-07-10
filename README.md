@@ -6,7 +6,9 @@ The credit risk modeling project aimed to predict loan defaults with high accura
 
 The project involved multiple stages:
   **1.** Data Cleaning
+  
   **2.** Exploration
+  
   **3.** Development Of Various Models To Enhance Predictive Performance.
 
 ## Final Results
