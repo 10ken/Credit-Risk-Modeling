@@ -66,4 +66,4 @@ A new addition to the project involved the development of a Multi-Agent model, w
 
 The multi-agent model improved the recall, actual defaulters, by 31% while having insignificant impacts to the precision and accuracy.
 
-![alt text]([https://github.com/[username]/[reponame]/blob/[branch]/image.jpg](https://github.com/10ken/Credit-Risk-Modeling/blob/master/img/all_performance_KPIs.png)?raw=true)
+![Model Performance](https://github.com/10ken/Credit-Risk-Modeling/blob/master/img/all_performance_KPIs.png)
