@@ -5,9 +5,27 @@ Based on the dataset, despite the current application measures taken, 18.4% of c
 The credit risk modeling project aimed to predict loan defaults with high accuracy and reliability by prioritizing the improvement of recall without significantly compromising precision and accuracy, thereby minimizing risk for both lenders and applicants.
 
 The project involved multiple stages:
-  1. Data Cleaning
-  2. Exploration
-  3. Development Of Various Models To Enhance Predictive Performance.
+  **1.** Data Cleaning
+  **2.** Exploration
+  **3.** Development Of Various Models To Enhance Predictive Performance.
+
+## Final Results
+
+The multi-agent model improved the recall, actual defaulters, by 31% while having insignificant impacts to the precision and accuracy.
+
+![Model Performance](https://github.com/10ken/Credit-Risk-Modeling/blob/master/img/all_performance_KPIs.png)
+
+## Summary of Findings
+                    Recall    Precision    Accuracy    
+**Log Model:**            53          73          93      
+**XGB Model:**            72          94          93
+**Multi-Agent Model:**    84          70          90
+
+- **Data Cleaning and Exploration**: Essential for understanding the dataset and preparing it for modeling.
+-Certainly! Here are the improved versions of each statement:
+- **Logistic Regression and PCA**: Improved model accuracy from 81% to 86%, but recall was only 53% despite an optimized threshold.
+- **Gradient Boosted Trees**: Achieved 93.3% accuracy with reduced model complexity, and improved recall and precision by 20%.
+- **Multi-Agent Model**: Boosted recall by 31%, focusing on reducing false negatives and accurately identifying potential defaulters without significantly compromising precision or accuracy.
 
 ### Performance Metric Definitions
 - **Recall**: Measures the proportion of actual defaulters, minimizing false negatives
@@ -52,18 +70,4 @@ A new addition to the project involved the development of a Multi-Agent model, w
 ### Model Insights
 
 - **Top Features**: The top five most important features for determining a loan default were the applicant's income, age, employment length, and the loan's interest rate and amount.
-- **Default Rate Reduction**: With the Multi-Agent model, the default rate would decrease from 21.8% to 6.7%, resulting in minimized risk for both the lender and the applicant.
-
-## Summary of Findings
-
-- **Data Cleaning and Exploration**: Essential for understanding the dataset and preparing it for modeling.
--Certainly! Here are the improved versions of each statement:
-- **Logistic Regression and PCA**: Improved model accuracy from 81% to 86%, but recall was only 53% despite an optimized threshold.
-- **Gradient Boosted Trees**: Achieved 93.3% accuracy with reduced model complexity, and improved recall and precision by 20%.
-- **Multi-Agent Model**: Boosted recall by 31%, focusing on reducing false negatives and accurately identifying potential defaulters without significantly compromising precision or accuracy.
-
-## Final Results
-
-The multi-agent model improved the recall, actual defaulters, by 31% while having insignificant impacts to the precision and accuracy.
-
-![Model Performance](https://github.com/10ken/Credit-Risk-Modeling/blob/master/img/all_performance_KPIs.png)
+- **Default Rate Reduction**: With the Multi-Agent model, the default rate would decrease from 22% to 7%, resulting in minimized risk for both the lender and the applicant.
